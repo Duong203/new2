@@ -170,7 +170,7 @@
                 K += (A * B / 10000) * L * multiplier;
             }
 
-            const khoiLuong = (K * n).toFixed(1);
+            const khoiLuong = K * n;
 
             document.getElementById('result').innerHTML = `
                 Khối lượng thùng: ${khoiLuong.toLocaleString()} gram
